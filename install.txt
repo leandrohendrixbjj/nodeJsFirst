@@ -1,0 +1,15 @@
+npm init
+npm install express@4.16.3 --save-exact
+npm install nodemon --save-dev 
+npm install marko@4.13.4-1 --save-exact
+npm install sqlite3 --save-exact
+npm install body-parser@1.18.3 --save-exact
+npm install method-override@3.0.0 --save-exact
+
+/** Remover dependência:
+npm uninstall <nameOfDependence>
+
+/** Se houver problema com sqlite:
+1->Excluir a pasta node_modules
+2->executar npm install
+3->executar npm install sqlite3 --save-exact **/
